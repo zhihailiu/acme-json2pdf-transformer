@@ -2,7 +2,7 @@
 
 ## Purpose
 This is an example transformer used to demonstrate how to create a simple transformer based on
-[alfresco-transform-core](https://github.com/Alfresco/alfresco-transform-core). The code is based on [alfresco-helloworld-transformer-engine](https://github.com/Alfresco/alfresco-helloworld-transformer/tree/master/alfresco-helloworld-transformer-engine). It takes a json file and "transforms" to a pre-configured dummy pdf file. AKA this is not real transformation but a proof of concept of custom transform engine. 
+[alfresco-transform-core](https://github.com/Alfresco/alfresco-transform-core). The code is based on [alfresco-helloworld-transformer-engine](https://github.com/Alfresco/alfresco-helloworld-transformer/tree/master/alfresco-helloworld-transformer-engine). It takes a json file and "transforms" to a pre-configured dummy pdf file. AKA this is not real transformation but a proof of concept of custom transform engine starting in ACS 6.2+. 
 
 ## Prerequisites
 * Java 11

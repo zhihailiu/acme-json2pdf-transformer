@@ -1,0 +1,18 @@
+{
+  "transformOptions":
+  {
+  },
+  "transformers":
+  [
+    {
+      "transformerName": "json2pdf",
+      "supportedSourceAndTargetList":
+      [
+        {"sourceMediaType": "application/json",  "maxSourceSizeBytes": 1000000, "targetMediaType": "application/pdf"  }
+      ],
+      "transformOptions":
+      [
+      ]
+    }
+  ]
+}

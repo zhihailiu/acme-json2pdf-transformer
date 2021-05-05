@@ -36,6 +36,17 @@ docker logs -f acme-json2pdf-transformer
  or `java -jar target/acme-json2pdf-transformer-{version}.jar` in the project directory.
  The application will be accessible on port 8090.
 
+## Run in Docker Compose
+
+Execute the following commands to run the transformer container together with ACS7:
+
+```bash
+cd docker-compose
+docker-compose up
+```
+
+> "docker-compose/renditions" folder has custom rendition definitions. The folder is mounted as a volume to alfresco in docker-compose.yml to load these definitions.
+ 
 ## Additional notes
 
 ##### Maven settings

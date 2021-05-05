@@ -1,0 +1,10 @@
+{
+  "renditions": [
+    {
+      "renditionName": "json2pdf",
+      "targetMediaType": "application/pdf",
+      "options": [
+      ]
+    }
+  ]
+}

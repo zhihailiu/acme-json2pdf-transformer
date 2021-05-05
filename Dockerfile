@@ -12,7 +12,7 @@ ARG USERID=33004
 
 COPY target/acme-json2pdf-transformer-${env.project_version}.jar /usr/bin
 
-RUN ln /usr/bin/acme-json2pdf-transformer-${env.project_version}.jar /usr/bin/acem-json2pdf-transformer.jar && \
+RUN ln /usr/bin/acme-json2pdf-transformer-${env.project_version}.jar /usr/bin/acme-json2pdf-transformer.jar && \
     yum clean all
 
 RUN groupadd -g ${GROUPID} ${GROUPNAME} && \
